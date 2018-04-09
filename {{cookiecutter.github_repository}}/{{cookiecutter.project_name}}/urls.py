@@ -1,4 +1,4 @@
-"""{{ project_name }} URL Configuration
+"""{{ cookiecutter.project_name }} URL Configuration
 
 """
 from django.contrib import admin
