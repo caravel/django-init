@@ -1,9 +1,12 @@
 import os
+import environ
+
+env = environ.Env()
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-SECRET_KEY = '{{ secret_key }}'
+SECRET_KEY = 'top-secret!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
