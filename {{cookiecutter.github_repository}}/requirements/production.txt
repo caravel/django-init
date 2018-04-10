@@ -1,0 +1,14 @@
+-r base.txt
+
+dj-database-url==0.4.2
+gunicorn==19.7.1
+whitenoise==3.3.0
+django-storages==1.5.2
+boto==2.46.1
+django-redis-cache==1.7.0
+django-anymail==0.9
+twilio==6.1.0
+raven==6.0.0
+opbeat==3.5.2
+djangorestframework-jwt==1.10
+django-debug-toolbar==1.8
