@@ -1,0 +1,19 @@
+{
+  "name": "{{cookiecutter.project_name}}",
+  "version": "0.0.1",
+  "description": "{{cookiecutter.description}}",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caravel/django-init.git"
+  },
+  "author": "Caravel Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caravel/django-init/issues"
+  },
+  "homepage": "https://github.com/caravel/django-init#readme"
+}
