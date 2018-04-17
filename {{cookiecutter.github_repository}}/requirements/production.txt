@@ -11,4 +11,3 @@ twilio==6.1.0
 raven==6.0.0
 opbeat==3.5.2
 djangorestframework-jwt==1.10
-django-debug-toolbar==1.8
