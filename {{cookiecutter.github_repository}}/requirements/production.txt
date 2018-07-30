@@ -10,4 +10,4 @@ django-anymail==3.0
 twilio==6.15.2
 raven==6.9.0
 opbeat==3.6.1
-djangorestframework-jwt==1.10
+djangorestframework-jwt==1.11.0
