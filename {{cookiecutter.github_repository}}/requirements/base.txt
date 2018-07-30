@@ -1,16 +1,16 @@
 # base requirements
 
-Django==2.0.4
-django-braces==1.12.0
+Django==2.0.7
+django-braces==1.13.0
 django-taggit==0.22.2
-psycopg2==2.7.1
-django-oauth-toolkit==0.12.0
-mistune==0.7.4
-djangorestframework==3.6.2
-redis==2.10.5
-Pillow==4.1.1
-django-nested-admin==3.0.17
-django-cors-headers==2.0.2
-whitenoise==3.3.0
-django-allauth==0.35.0
-faker==0.7.17
+psycopg2==2.7.5
+django-oauth-toolkit==1.2.0
+mistune==0.8.3
+djangorestframework==3.8.2
+redis==2.10.6
+Pillow==5.2.0
+django-nested-admin==3.0.21
+django-cors-headers==2.4.0
+whitenoise==3.3.1
+django-allauth==0.36.0
+faker==0.8.17
