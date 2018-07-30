@@ -8,6 +8,6 @@ boto==2.49.0
 django-redis-cache==1.7.1
 django-anymail==3.0
 twilio==6.15.2
-raven==6.0.0
+raven==6.9.0
 opbeat==3.5.2
 djangorestframework-jwt==1.10
