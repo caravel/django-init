@@ -1,6 +1,6 @@
 # base requirements
 
-Django==2.1.1
+Django==2.1.2
 django-braces==1.13.0
 django-taggit==0.23.0
 psycopg2==2.7.5
@@ -8,9 +8,9 @@ django-oauth-toolkit==1.2.0
 mistune==0.8.3
 djangorestframework==3.8.2
 redis==2.10.6
-Pillow==5.2.0
-django-nested-admin==3.1.1
+Pillow==5.3.0
+django-nested-admin==3.1.2
 django-cors-headers==2.4.0
-whitenoise==4.0
-django-allauth==0.37.1
-faker==0.8.18
+whitenoise==4.1
+django-allauth==0.38.0
+faker==0.9.1
