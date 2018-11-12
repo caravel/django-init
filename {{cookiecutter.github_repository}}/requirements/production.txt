@@ -5,7 +5,7 @@ gunicorn==19.9.0
 whitenoise==4.1
 django-storages==1.7.1
 boto==2.49.0
-django-redis-cache==1.7.1
+django-redis-cache==1.8.0
 django-anymail==4.3
 twilio==6.19.2
 raven==6.9.0
