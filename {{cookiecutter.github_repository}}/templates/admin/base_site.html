@@ -1,10 +1,9 @@
-{% raw %}
-{% extends "admin/base.html" %}
-{% load i18n %}
- 
-{% block title %}{{ title }} | {% trans '{{cookiecutter.project_name}} Admin' %}{% endblock %}
- 
+{% raw %}{% extends "admin/base.html" %}{% load i18n %}{% endraw %}
+
+{% raw %}{% block title %}{{ title }} | {% trans {% endraw %} '{{cookiecutter.project_name}} Admin'{% raw %} %} {% endblock %}
+
 {% block branding %}
+{% endraw %}
 <style type="text/css">
   #header
   {
@@ -18,9 +17,8 @@
     color: #FFFFFF;
 }
 </style>
-<h1 id="site-name">{% trans '{{cookiecutter.project_name}} Admin' %}</h1>
+<h1 id="site-name">{% raw %}{% trans {% endraw %}'{{cookiecutter.project_name}} Admin' {% raw %} %} {% endraw %}</h1>
 
-{% endblock %}
- 
-{% block nav-global %}{% endblock %}
+{% raw %}
+{% endblock %}{% block nav-global %}{% endblock %}
 {% endraw %}

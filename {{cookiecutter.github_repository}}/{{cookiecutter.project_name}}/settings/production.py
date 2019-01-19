@@ -3,7 +3,7 @@ from .common import * # noqa
 import dj_database_url
 
 # Database
-DEBUG = True
+DEBUG = False
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -29,4 +29,4 @@ ALLOWED_HOSTS = ['*']
 
 
 # Simplified static file serving.
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
