@@ -20,6 +20,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
 
     # Inhouse apps
     '{{ cookiecutter.project_name }}.analytics',
@@ -29,7 +30,7 @@ INSTALLED_APPS = [
     '{{ cookiecutter.project_name }}.utils',
     '{{ cookiecutter.project_name }}.web',
 
-    # Third-party things 
+    # Third-party things
     'rest_framework',
     'corsheaders',
     'taggit',
@@ -38,7 +39,6 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
-
 
 ]
 
