@@ -73,6 +73,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = '{{ cookiecutter.project_name }}.wsgi.application'
 
+# Django Sites
+
+SITE_ID = 1
 
 # Database
 
