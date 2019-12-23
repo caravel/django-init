@@ -14,6 +14,13 @@ DATABASES = {
     }
 }
 
+# CORS WHITELIST ON PROD
+CORS_ORIGIN_WHITELIST = [
+    # "https://example.com",
+    # "https://sub.example.com",
+    # "http://localhost:8080",
+    # "http://127.0.0.1:9000"
+]
 # Parse database configuration from $DATABASE_URL
 DATABASES['default'] = dj_database_url.config()
 SITE_ID = 1
