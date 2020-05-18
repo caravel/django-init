@@ -13,4 +13,4 @@ django-nested-admin==3.3.0
 django-cors-headers==3.2.1
 whitenoise==5.0.1
 django-allauth==0.41.0
-faker==1.0.2
+faker==4.1.0
