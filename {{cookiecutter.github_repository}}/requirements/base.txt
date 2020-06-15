@@ -9,7 +9,7 @@ mistune==0.8.4
 djangorestframework==3.11.0
 redis==3.5.3
 Pillow==7.1.2
-django-nested-admin==3.3.0
+django-nested-admin==3.3.2
 django-cors-headers==3.3.0
 whitenoise==5.1.0
 django-allauth==0.42.0
