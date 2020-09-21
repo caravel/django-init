@@ -7,7 +7,7 @@ django-storages==1.10.1
 boto==2.49.0
 django-redis-cache==2.1.1
 django-anymail==8.0
-twilio==6.41.0
+twilio==6.45.2
 raven==6.10.0
 opbeat==3.6.1
 djangorestframework-jwt==1.11.0
