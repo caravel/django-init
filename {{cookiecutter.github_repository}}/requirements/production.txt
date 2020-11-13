@@ -2,12 +2,12 @@
 
 dj-database-url==0.5.0
 gunicorn==20.0.4
-whitenoise==5.1.0
-django-storages==1.9.1
+whitenoise==5.2.0
+django-storages==1.10.1
 boto==2.49.0
-django-redis-cache==2.1.1
-django-anymail==7.1.0
-twilio==6.41.0
+django-redis-cache==3.0.0
+django-anymail==8.1
+twilio==6.47.0
 raven==6.10.0
 opbeat==3.6.1
 djangorestframework-jwt==1.11.0
