@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class ApiConfig(AppConfig):
-    name = 'api'
+    name = '{{ cookiecutter.project_name }}.api'

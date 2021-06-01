@@ -34,12 +34,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'taggit',
-
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-    'allauth.socialaccount.providers.google',
-
 ]
 
 MIDDLEWARE = [
@@ -129,3 +123,5 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

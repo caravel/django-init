@@ -34,6 +34,8 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 # Allow all host headers
 ALLOWED_HOSTS = ['*']
 
+# TODO: Make it FALSE and LIST DOMAINS IN FULL PROD.
+CORS_ALLOW_ALL_ORIGINS = True
 
 # Simplified static file serving.
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class BgtasksConfig(AppConfig):
-    name = 'bgtasks'
+    name = '{{ cookiecutter.project_name }}.bgtasks'
