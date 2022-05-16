@@ -31,6 +31,8 @@ INSTALLED_APPS = [
     '{{ cookiecutter.project_name }}.db',
     '{{ cookiecutter.project_name }}.utils',
     '{{ cookiecutter.project_name }}.web',
+    '{{ cookiecutter.project_name }}.middleware',
+    '{{ cookiecutter.project_name }}.email_templates',
 
     # Third-party things
     'rest_framework',
@@ -71,7 +73,10 @@ ROOT_URLCONF = '{{ cookiecutter.project_name }}.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates', ],
+        'DIRS': [
+            'templates',
+            os.path.join("{{cookiecutter.project_name}}", "email_templates"),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -112,6 +117,9 @@ WSGI_APPLICATION = '{{ cookiecutter.project_name }}.wsgi.application'
 # Django Sites
 
 SITE_ID = 1
+
+# User Model
+AUTH_USER_MODEL = "db.User"
 
 # Database
 
