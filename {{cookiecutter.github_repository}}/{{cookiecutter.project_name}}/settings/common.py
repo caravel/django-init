@@ -174,3 +174,15 @@ USE_L10N = True
 USE_TZ = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+# Host for sending e-mail.
+EMAIL_HOST = "{{cookiecutter.email_host}}"
+# Port for sending e-mail.
+EMAIL_PORT = {{cookiecutter.email_port}}
+# Optional SMTP authentication information for EMAIL_HOST.
+EMAIL_HOST_USER = "{{cookiecutter.email_host_user}}"
+EMAIL_HOST_PASSWORD = (
+    "{{cookiecutter.email_host_password}}"
+)
+EMAIL_USE_TLS = True

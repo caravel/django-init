@@ -10,4 +10,8 @@
     "aws_access_key_id": "replace-me",
     "aws_secret_access_key": "replace-me",
     "aws_s3_bucket_name": "replace-me",
+    "email_host": "replace-me",
+    "email_port": "587",
+    "email_host_user": "replace-me",
+    "email_host_password": "replace-me"
 }
