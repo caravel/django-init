@@ -11,6 +11,6 @@ redis==4.2.2
 Pillow==9.1.0
 django-nested-admin==3.4.0
 django-cors-headers==3.11.0
-whitenoise==6.0.0
+whitenoise==6.1.0
 django-allauth==0.50.0
 faker==13.4.0
