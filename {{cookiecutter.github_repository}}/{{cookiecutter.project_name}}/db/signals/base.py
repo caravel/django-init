@@ -4,7 +4,7 @@ from django.core.mail import EmailMultiAlternatives
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags
 
-from {{cookicutter.project_name}}.db.models import User
+from {{ cookiecutter.project_name }}.db.models import User
 
 def welcome_mail(
     first_name, to_email, from_email, is_staff
