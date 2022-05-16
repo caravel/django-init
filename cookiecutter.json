@@ -3,5 +3,11 @@
     "project_name": "cldj",
     "email": "vamsi@caravel.ai",
     "description": "Made with Django",
-    "github_username": "caravel"
+    "github_username": "caravel",
+    "secret_key": "top-secret",
+    "sentry-dsn": "replace-me",
+    "aws_region": "us-east-1(replace-me)",
+    "aws_access_key_id": "replace-me",
+    "aws_secret_access_key": "replace-me",
+    "aws_s3_bucket_name": "replace-me",
 }

@@ -14,3 +14,8 @@ django-cors-headers==3.11.0
 whitenoise==6.0.0
 django-allauth==0.50.0
 faker==13.4.0
+django-filter==21.1
+jsonmodels==2.5.0
+djangorestframework-simplejwt==5.1.0
+sentry-sdk==1.5.12
+django-s3-storage==0.13.6
