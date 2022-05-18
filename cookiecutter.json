@@ -5,7 +5,7 @@
     "description": "Made with Django",
     "github_username": "caravel",
     "secret_key": "top-secret",
-    "sentry-dsn": "replace-me",
+    "sentry_dsn": "replace-me",
     "aws_region": "us-east-1(replace-me)",
     "aws_access_key_id": "replace-me",
     "aws_secret_access_key": "replace-me",
