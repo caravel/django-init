@@ -52,6 +52,7 @@ sentry_sdk.init(
     # django.contrib.auth) you may enable sending PII data.
     traces_sample_rate=0.7,
     send_default_pii=True,
+    environment="production",
 )
 
 # The AWS region to connect to.
@@ -158,9 +159,6 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
-
-## ### Remove this later
-MIDDLEWARE += ("debug_toolbar.middleware.DebugToolbarMiddleware",)
 
 REDIS_URL = urlparse(os.environ.get("REDIS_URL"))
 

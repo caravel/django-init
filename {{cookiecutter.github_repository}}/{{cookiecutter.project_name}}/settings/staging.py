@@ -152,9 +152,6 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
 
-## ### Remove this later
-MIDDLEWARE += ("debug_toolbar.middleware.DebugToolbarMiddleware",)
-
 REDIS_URL = urlparse(os.environ.get("REDIS_URL"))
 
 # Caching

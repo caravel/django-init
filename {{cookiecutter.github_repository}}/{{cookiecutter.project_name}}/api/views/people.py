@@ -17,7 +17,7 @@ from {{ cookiecutter.project_name }}.db.models import User
 class PeopleView(APIView, BasePaginator):
 
     filterset_fields = (
-        "date_joined"
+        "date_joined",
     )
 
     search_fields = (
