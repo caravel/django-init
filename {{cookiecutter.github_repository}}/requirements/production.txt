@@ -6,4 +6,4 @@ whitenoise==6.4.0
 django-storages==1.13.2
 boto==2.49.0
 django-anymail==10.0
-twilio==7.11.0
+twilio==8.2.0
