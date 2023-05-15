@@ -6,7 +6,7 @@ django-taggit==4.0.0
 psycopg2==2.9.6
 django-oauth-toolkit==2.2.0
 mistune==2.0.5
-djangorestframework==3.13.1
+djangorestframework==3.14.0
 redis==4.3.4
 Pillow==9.2.0
 django-nested-admin==3.4.0
