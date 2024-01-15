@@ -12,7 +12,7 @@ Pillow==10.2.0
 django-nested-admin==4.0.2
 django-cors-headers==4.3.1
 whitenoise==6.6.0
-django-allauth==0.51.0
+django-allauth==0.60.0
 faker==13.15.0
 django-filter==22.1
 jsonmodels==2.5.1
