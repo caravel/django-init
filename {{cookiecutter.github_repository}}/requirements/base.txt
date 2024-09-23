@@ -13,7 +13,7 @@ django-nested-admin==4.1.1
 django-cors-headers==4.4.0
 whitenoise==6.7.0
 django-allauth==65.0.1
-faker==13.15.0
+faker==29.0.0
 django-filter==22.1
 jsonmodels==2.5.1
 djangorestframework-simplejwt==5.2.0
