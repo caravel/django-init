@@ -10,7 +10,7 @@ djangorestframework==3.15.2
 redis==5.1.1
 Pillow==11.0.0
 django-nested-admin==4.1.1
-django-cors-headers==3.13.0
+django-cors-headers==4.5.0
 whitenoise==6.7.0
 django-allauth==0.51.0
 faker==13.15.0
