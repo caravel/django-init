@@ -5,5 +5,5 @@ gunicorn==25.0.3
 whitenoise==6.11.0
 django-storages==1.14.6
 boto==2.49.0
-django-anymail==8.6
+django-anymail==14.0
 twilio==7.11.0
